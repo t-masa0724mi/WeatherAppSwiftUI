@@ -1,10 +1,3 @@
-//
-//  Webservice.swift
-//  WeatherAppSwiftUI
-//
-//  Created by Mohammad Azam on 3/5/21.
-//
-
 import Foundation
 
 enum NetworkError: Error {
@@ -28,7 +21,7 @@ class Webservice {
             
             let weatherResponse = try? JSONDecoder().decode(WeatherResponse.self, from: data)
             if let weatherResponse = weatherResponse {
-                
+                completion(.success(weatherResponse.weather))
             }
             
         }.resume()

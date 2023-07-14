@@ -1,11 +1,3 @@
-//
-//  URLImage.swift
-//  URLImageDemo
-//
-//  Created by Mohammad Azam on 6/17/20.
-//  Copyright © 2020 Mohammad Azam. All rights reserved.
-//
-
 import SwiftUI
 
 struct URLImage: View {
