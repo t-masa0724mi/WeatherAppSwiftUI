@@ -1,10 +1,3 @@
-//
-//  SettingsScreen.swift
-//  WeatherAppSwiftUI
-//
-//  Created by Mohammad Azam on 3/8/21.
-//
-
 import SwiftUI
 
 enum TemperatureUnit: String, CaseIterable, Identifiable {
