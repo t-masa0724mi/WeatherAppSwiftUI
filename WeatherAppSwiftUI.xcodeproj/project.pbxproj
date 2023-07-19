@@ -24,6 +24,7 @@
 		8D5F0FFC25F2CCE80057F0A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F0FFB25F2CCE80057F0A1 /* Constants.swift */; };
 		E2F4CAA52A678F4700DF5E24 /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4CAA42A678F4700DF5E24 /* AddWeatherViewModel.swift */; };
 		E2F4CAA72A67914100DF5E24 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4CAA62A67914100DF5E24 /* WeatherViewModel.swift */; };
+		E2F4CAA92A67989200DF5E24 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4CAA82A67989200DF5E24 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		8D5F0FFB25F2CCE80057F0A1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E2F4CAA42A678F4700DF5E24 /* AddWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherViewModel.swift; sourceTree = "<group>"; };
 		E2F4CAA62A67914100DF5E24 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		E2F4CAA82A67989200DF5E24 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		8D07DA2225F45BBE0003CA24 /* Global State */ = {
 			isa = PBXGroup;
 			children = (
+				E2F4CAA82A67989200DF5E24 /* Store.swift */,
 			);
 			path = "Global State";
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				8D1F09F625F6839400A58763 /* SettingsScreen.swift in Sources */,
 				8D1F09F925F6F92100A58763 /* UserDefaults+Extensions.swift in Sources */,
 				8D07DA2A25F5C8730003CA24 /* ImageLoader.swift in Sources */,
+				E2F4CAA92A67989200DF5E24 /* Store.swift in Sources */,
 				8D5F0FF725F2CC480057F0A1 /* Webservice.swift in Sources */,
 				8D07DA2E25F5C8870003CA24 /* URLImage.swift in Sources */,
 				8D11EE5B25F7233100FE6F95 /* Weather.swift in Sources */,
